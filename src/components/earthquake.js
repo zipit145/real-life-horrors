@@ -13,7 +13,10 @@ const Earthquake = (props) => {
             }  
         }
         return (
-            <div>{newEarthquake}</div>
+            <div className = "earthquake-component component">
+                <h1>INVISIBLE SEISMIC ASSASSINS!!!</h1>
+                <div>{newEarthquake}</div>
+            </div>
         )
     } else {
         return null
