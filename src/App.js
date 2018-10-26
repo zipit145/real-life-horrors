@@ -18,6 +18,11 @@ class App extends Component {
     }
   }
   async componentDidMount() {
+    this.getEarthquake()
+    this.getCrime()
+  }
+
+  async getEarthquake() {
     const response = await fetch('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-01-02')
     const json = await response.json()
     console.log(json)
@@ -27,19 +32,32 @@ class App extends Component {
     console.log(json)
   }
 
+  async getCrime() {
+    const response = await fetch('https://data.police.uk/api/crimes-no-location?category=all-crime&force=leicestershire&date=2017-02')
+    const json = await response.json()
+    console.log(json)
+    this.setState({
+      crime: json
+    })
+    console.log(json)
+  }
+
+
 
   
   render() {
     return (
       <div className="App">
-        <Animal />
+        <Main />
+         <div className = "main">
+         <Animal />
         <Earthquake earthquake={this.state.earthquake} />
         <Anime />
-        <Bitcoin />
-        <Crime />
+        <Bitcoin  />
+        <Crime crime = {this.state.crime}/>
         <Enviro />
-        <Main />
         <Trump />
+        </div>
       </div>
     );
   }

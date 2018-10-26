@@ -1,11 +1,11 @@
 import React from 'react';
 
-const trump = () => {
+const Trump = () => {
    return (
    <div>
-      <h1>trump</h1>
+      <div className="trump">TRUMP!!!</div>
    </div>
    )
 }
 
-export default trump
+export default Trump
