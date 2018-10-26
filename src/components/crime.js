@@ -1,6 +1,6 @@
 import React from 'react';
 
-const crime = () => {
+const Crime = () => {
    return (
    <div>
       <h1>crime</h1>
@@ -8,4 +8,4 @@ const crime = () => {
    )
 }
 
-export default crime
+export default Crime

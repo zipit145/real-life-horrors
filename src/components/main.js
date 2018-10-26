@@ -1,6 +1,6 @@
 import React from 'react';
 
-const main = () => {
+const Main = () => {
    return (
    <div>
       <h1>Real-Life Horrors</h1>
@@ -8,4 +8,4 @@ const main = () => {
    )
 }
 
-export default main
+export default Main

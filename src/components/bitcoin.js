@@ -1,6 +1,6 @@
 import React from 'react';
 
-const bitcoin = () => {
+const Bitcoin = () => {
    return (
    <div>
       <h1>bitcoin</h1>
@@ -8,4 +8,4 @@ const bitcoin = () => {
    )
 }
 
-export default bitcoin
+export default Bitcoin

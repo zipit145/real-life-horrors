@@ -1,6 +1,6 @@
 import React from 'react';
 
-const earthquake = () => {
+const Earthquake = () => {
    return (
    <div>
       <h1>earthquake</h1>
@@ -8,4 +8,4 @@ const earthquake = () => {
    )
 }
 
-export default earthquake
+export default Earthquake

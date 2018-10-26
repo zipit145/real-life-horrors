@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
-import earthquake  from './components/earthquake';
-import animal from './components/animal';
-import anime from './components/anime';
-import bitcoin from './component/bitcoin';
-import crime from './component/crime';
-import enviro from './component/enviro';
-import main from './component/main';
-import trump from './component/trump';
+import Animal from './components/Animal';
+import Earthquake  from './components/Earthquake';
+import Anime from './components/Anime';
+import Bitcoin from './components/Bitcoin';
+import Crime from './components/Crime';
+import Enviro from './components/Enviro';
+import Main from './components/Main';
+import Trump from './components/Trump';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <earthquake />
-        <animal />
-        <anime />
-        <bitcoin />
-        <crime />
-        <enviro />
-        <main />
-        <trump />
+        <Animal />
+        <Earthquake />
+        <Anime />
+        <Bitcoin />
+        <Crime />
+        <Enviro />
+        <Main />
+        <Trump />
       </div>
     );
   }

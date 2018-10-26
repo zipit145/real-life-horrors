@@ -1,6 +1,6 @@
 import React from 'react';
 
-const enviro = () => {
+const Enviro = () => {
    return (
    <div>
       <h1>enviro</h1>
@@ -8,4 +8,4 @@ const enviro = () => {
    )
 }
 
-export default enviro
+export default Enviro

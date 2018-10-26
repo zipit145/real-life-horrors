@@ -1,6 +1,6 @@
 import React from 'react';
 
-const anime = () => {
+const Anime = () => {
    return (
    <div>
       <h1>anime</h1>
@@ -8,4 +8,4 @@ const anime = () => {
    )
 }
 
-export default anime
+export default Anime
